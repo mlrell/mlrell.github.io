@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8ff">
+  <meta name="description" content="Zamira's personal homepage — first-year IT student at Inha University in Tashkent.">
+  <title>Zamira — IT student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Zamira, home"><span class="brand-mark">Z</span><span>zamira<span class="brand-dot">.</span></span></a>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#courses">Courses</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch color theme"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark mode</span></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> FIRST-YEAR IT STUDENT · TASHKENT</div>
+        <div class="hero-heading-row"><div class="hero-identity"><h1>Hi, I’m Zamira.<br><span class="headline-accent">Curious by nature.</span></h1></div></div>
+        <p class="hero-text">I’m learning how technology works, one idea and one line of code at a time.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract blue illustration of a connected network" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-card"><span class="art-code">&lt;hello, world /&gt;</span><div class="art-lines"><i></i><i></i><i></i></div><span class="art-cursor"></span></div>
+        <span class="node node-a"></span><span class="node node-b"></span><span class="node node-c"></span><span class="node node-d"></span>
+        <div class="art-caption"><span class="caption-spark">✳</span> Learning in progress</div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About me"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="wrap two-column">
+        <div><p class="section-kicker">01 / A LITTLE INTRO</p><h2>About <span class="headline-accent">me</span></h2></div>
+        <div class="about-content"><p class="lead">I’m a first-year IT student at <strong>Inha University in Tashkent</strong>, excited to turn curiosity into skills.</p><p>Right now, I’m building a foundation in programming, maths, and physics. I enjoy asking how things work—and then trying to make them work myself. This page is my small corner of the internet to share what I’m learning along the way.</p><div class="about-note"><span class="note-icon">✦</span><span>Currently exploring <strong>C++, computer networks &amp; the world of IT</strong></span></div></div>
+      </div>
+    </section>
+
+    <section class="section courses-section" id="courses">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="section-kicker">02 / WHAT I’M STUDYING</p><h2>My courses</h2></div><p class="section-aside">Building a strong foundation, one class at a time.</p></div>
+        <div class="course-grid">
+          <article class="course-card"><span class="course-number">01</span><span class="course-icon icon-blue">⌘</span><h3>Introduction to IT</h3><p>Getting to know the systems, ideas, and tools behind information technology.</p><span class="course-tag">IT FOUNDATIONS</span></article>
+          <article class="course-card"><span class="course-number">02</span><span class="course-icon icon-violet">∑</span><h3>Calculus 1</h3><p>Exploring limits, derivatives, and the mathematics of change.</p><span class="course-tag">MATHEMATICS</span></article>
+          <article class="course-card"><span class="course-number">03</span><span class="course-icon icon-cyan">◉</span><h3>Physics 1</h3><p>Connecting the concepts of motion, energy, and the physical world.</p><span class="course-tag">SCIENCE</span></article>
+          <article class="course-card"><span class="course-number">04</span><span class="course-icon icon-amber">{ }</span><h3>Object-Oriented Programming 1</h3><p>Learning to structure programs and solve problems with C++.</p><span class="course-tag">C++ · PROGRAMMING</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="wrap project-layout">
+        <div class="project-intro"><p class="section-kicker">03 / WHAT I’VE MADE</p><h2>Curiosity,<br><span class="headline-accent">in practice.</span></h2><p>Every assignment is a chance to explore a little further. Here’s one investigation from my lab work.</p></div>
+        <article class="project-card">
+          <div class="project-top"><span class="project-label"><span class="project-dot"></span> LAB NOTES</span><span class="project-index">PROJECT 01</span></div>
+          <div class="terminal-window"><div class="terminal-bar"><span></span><span></span><span></span><i>network-detective.txt</i></div><div class="terminal-content"><p><span class="terminal-prompt">$</span> opening lab-notes.md</p><p class="terminal-muted">// Lab 8a · field notes</p><p><span class="terminal-key">mission</span> <span class="terminal-value">trace the network</span></p><p><span class="terminal-key">tools</span> <span class="terminal-value">observe · inspect · learn</span></p><p><span class="terminal-key">status</span> <span class="terminal-success">investigation complete ✓</span></p><span class="terminal-caret"></span></div></div>
+          <h3>Lab 8a: Network Detective</h3><p class="project-description">A set of notes from putting on my detective hat and investigating how networks communicate. A practical way to connect classroom concepts with the systems around us.</p>
+          <div class="project-footer"><span class="project-chip">NETWORKING</span><span class="project-chip">LAB NOTES</span><a href="#contact" class="project-link">Let’s talk about it <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card network-project-card" aria-labelledby="network-project-title">
+          <div class="project-top"><span class="project-label"><span class="project-dot"></span> LAB 8A FIELD FINDINGS</span><span class="project-index">NETWORK NOTES</span></div>
+          <h3 id="network-project-title">Network detective</h3>
+          <p class="project-description">A few clues from my network investigation:</p>
+          <dl class="network-project-details"><div><dt>Internet provider</dt><dd>Uztelekom</dd></div><div><dt>Router maker</dt><dd>Xiaomi</dd></div><div><dt>Route to inha.uz</dt><dd><strong>5</strong> hops away</dd></div></dl>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="wrap contact-inner"><p class="section-kicker">04 / SAY HELLO</p><h2>Have a good<br><span class="headline-accent">question?</span></h2><p>I’m always happy to talk about learning, IT, or a project idea.</p><a class="button button-light" href="mailto:zamira@example.com">Get in touch <span aria-hidden="true">↗</span></a><span class="contact-decoration" aria-hidden="true">✳</span></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">Z</span><span>zamira<span class="brand-dot">.</span></span></a><span>Made with curiosity in Tashkent <span class="footer-heart">✳</span></span><a href="#home" class="back-top">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>
